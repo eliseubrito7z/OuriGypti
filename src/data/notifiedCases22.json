@@ -1,0 +1,10 @@
+{
+  "Chikungunya": {
+    "Confirmed": 84,
+    "discarded": 102
+  },
+  "Zika": {
+    "Confirmed": 0,
+    "discarded": 95
+  }
+}

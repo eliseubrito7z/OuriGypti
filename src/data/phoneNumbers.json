@@ -1,0 +1,62 @@
+[
+  {
+    "localName": "Secretaria de Saúde",
+    "address": {
+      "street": "R. Teobaldo Gomes Torres",
+      "number": "56",
+      "district": "Centro"
+    },
+    "phoneNumber": {
+      "ddd": "87",
+      "number": "38744862"
+    }
+  },
+  {
+    "localName": "UBS - Aeroporto",
+    "address": {
+      "street": "Av. Manoel Irineu de Araújo",
+      "number": "280",
+      "district": "Centro"
+    },
+    "phoneNumber": {
+      "ddd": "00",
+      "number": "00000000"
+    }
+  },
+  {
+    "localName": "UBS - Centro",
+    "address": {
+      "street": "R. São Sebastião",
+      "number": "S/N",
+      "district": "Centro"
+    },
+    "phoneNumber": {
+      "ddd": "00",
+      "number": "00000000"
+    }
+  },
+  {
+    "localName": "USF - Santo Antônio",
+    "address": {
+      "street": "R. Valdemar Pedro de Aquino",
+      "number": "194",
+      "district": "Vila Ipsep"
+    },
+    "phoneNumber": {
+      "ddd": "87",
+      "number": "38743703"
+    }
+  },
+  {
+    "localName": "USF - Nossa Sra. do Carmo",
+    "address": {
+      "street": "R. Padre Cícero",
+      "number": "30",
+      "district": "Vila Ipsep"
+    },
+    "phoneNumber": {
+      "ddd": "87",
+      "number": "38741734"
+    }
+  }
+]
