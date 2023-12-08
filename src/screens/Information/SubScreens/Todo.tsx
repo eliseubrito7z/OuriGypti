@@ -1,9 +1,26 @@
-import {Text} from "react-native";
+import {ScrollView, Text} from "react-native";
+import {Question, Response, ResponseContainer, SubScreensContainer} from "./defaultStyles";
+import todoTexts from '../../../data/todoTexts.json'
 
 export function Todo() {
     return (
-        <>
-            <Text>TO DOOOOO</Text>
-        </>
+        <ScrollView>
+            <SubScreensContainer>
+                <Question>
+                    O que fazer
+                </Question>
+                <ResponseContainer>
+                    <Response>
+                        {todoTexts.aguaParada}
+                    </Response>
+                    <Response>
+                        {todoTexts.telas}
+                    </Response>
+                    <Response>
+                        {todoTexts.larvicidas}
+                    </Response>
+                </ResponseContainer>
+            </SubScreensContainer>
+        </ScrollView>
     )
 }

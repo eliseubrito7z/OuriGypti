@@ -1,10 +1,10 @@
 {
-  "Chikungunya": {
-    "Confirmed": 84,
+  "chikungunya": {
+    "confirmed": 84,
     "discarded": 102
   },
-  "Zika": {
-    "Confirmed": 0,
+  "zika": {
+    "confirmed": 0,
     "discarded": 95
   }
 }

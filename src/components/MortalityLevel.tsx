@@ -1,6 +1,7 @@
 import {Card} from "./Card";
 import styled from "styled-components/native";
 import Dash from "react-native-dash";
+import {Dots} from "./Dots";
 
 const TypeContainer = styled.View`
   width: 100%;
@@ -14,11 +15,6 @@ const TypeContainer = styled.View`
 const VirusName = styled.Text`
   min-width: max-content;
   font-size: 18px;
-`
-
-const DotsContainer = styled.View`
-  flex: 1;
-  overflow: hidden;
 `
 
 const Classification = styled.Text`
@@ -46,17 +42,7 @@ function VirusType({ virusName, classification }: VirusTypeProps) {
                 { virusName }
             </VirusName>
 
-            <DotsContainer>
-                <Dash
-                    dashGap={4}
-                    dashLength={4}
-                    dashThickness={2}
-                    dashColor={'#b4b8c5'}
-                    style={{
-                        width: 500,
-                    }}
-                />
-            </DotsContainer>
+            <Dots />
 
             <ClassificationContainer>
                 <Classification style={{

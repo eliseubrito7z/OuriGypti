@@ -5,12 +5,12 @@ import {WeeklyUpdates} from "../../components/WeeklyUpdates";
 import {LastYear} from "../../components/LastYear";
 import { MortalityLevel } from "../../components/MortalityLevel";
 import {IncidenceChart} from "./components/IncidenceChart"
+import {Cases} from "../../components/Cases";
 
 
 const Container = styled.ScrollView`
   padding: 36px 16px 0 16px;
   gap: 20px;
-  border: 1px solid red;
 `
 
 const Header = styled.View`
@@ -33,17 +33,15 @@ export default function Home() {
               <Image source={require('../../assets/radar-icon-1.png')} />
           </Header>
 
-          {/*<View>*/}
-          {/*    <WeeklyUpdates />*/}
-          {/*</View>*/}
-
           <View style={{
+              marginTop: 20,
               gap: 20,
               paddingBottom: 150
           }}>
               <WeeklyUpdates />
               <LastYear />
               <MortalityLevel />
+              <Cases />
               <IncidenceChart />
           </View>
       </Container>

@@ -61,16 +61,6 @@ export default function App() {
     );
 }
 
-// export default function App() {
-//     return (
-//         <View style={{
-//             flex: 1,
-//             gap: 30,
-//         }}>
-//             <Home />
-//         </View>
-//     )
-// }
 
 const styles = StyleSheet.create({
   container: {
